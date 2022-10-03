@@ -44,4 +44,4 @@ contradiction: 0.8398413666870043
 Overall SNLI Dev Evaluation Accuracy: 0.8374314163787848
 ```
 
-* Refer to utils_hans.py (lines 131, 196, and 271), and apply the mentioned changes if you want to evaluate a model that is fine-tuned on the SNLI training set using above instructions. 
+* Refer to utils_snli.py (lines 131, 196, and 271), and apply the mentioned changes if you want to evaluate a model that is fine-tuned on the SNLI training set using above instructions. 
