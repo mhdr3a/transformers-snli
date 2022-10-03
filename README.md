@@ -26,7 +26,7 @@ This is an example of using run_snli.py in Google Colab:
         --output_dir mnli-6
 ```
 * Note that the instructions above apply to models fine-tuned on MNLI; however, a model which is fine-tuned on SNLI could also be evaluated using these instructions with a few minor changes explained at the end of this document; nevertheless, I suggest
-using [these instructions](https://github.com/mhdr3a/cartography) to do so.
+using [this repository](https://github.com/mhdr3a/cartography) to do so.
 
 This will create the snli_predictions.txt file in ./mnli-6, which can then be evaluated using evaluate_predictions.py.
 
@@ -43,3 +43,5 @@ contradiction: 0.8398413666870043
 
 Overall SNLI Dev Evaluation Accuracy: 0.8374314163787848
 ```
+
+* Refer to utils_hans.py (lines 131, 196, and 271), and apply the mentioned changes, if you want to evaluate a model that is fine-tuned on SNLI training set using above instructions. 
