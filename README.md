@@ -1,4 +1,4 @@
-## Evaluate a Model using [SNLI Development Set](https://nlp.stanford.edu/projects/snli/)
+## Model Evaluation using [SNLI Development Set](https://nlp.stanford.edu/projects/snli/)
 
 Here is an example of evaluating a model (fine-tuned either on MNLI or SNLI) using SNLI development set [Bowman et al., 2015](https://nlp.stanford.edu/pubs/snli_paper.pdf).
 
